@@ -1,0 +1,43 @@
+{
+    "name": "lecano/spanish",
+    "description": "Spanish language for Laravel",
+    "keywords": [
+        "laravel",
+        "spanish",
+        "lang",
+        "translate"
+    ],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Lecano\\Spanish\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Lecano\\Spanish\\Tests\\": "tests"
+        }
+    },
+    "authors": [
+        {
+            "name": "Luis Cano",
+            "homepage": "https://github.com/lecano"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^9.31"
+    },
+    "require-dev": {
+        "php": "^8.0",
+        "phpunit/phpunit": "^9.5",
+        "orchestra/testbench": "7.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lecano\\Spanish\\SpanishServiceProvider"
+            ]
+        }
+    }
+}
