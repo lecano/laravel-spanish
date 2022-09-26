@@ -10,7 +10,7 @@ class SpanishServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__ . '/../resources/lang' => $this->app->langPath(),
+            __DIR__.'/../resources/lang' => $this->app->langPath(),
         ]);
 
         if ($this->app->runningInConsole()) {
