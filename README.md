@@ -11,6 +11,20 @@ Este paquete agrega a tu proyecto los archivos de traducciones en español para:
 - Laravel UI
 - Fortify
 
+La estructura de archivos es:
+
+```
+lang/es/auth.php
+lang/es/passwords.php
+lang/es/pagination.php
+lang/es/validation.php
+lang/es.json
+```
+
+Este proyecto mantiene la escencia del paquete `laraveles/spanish` pero actualizado para laravel 9.x.
+
+Las fuentes de traducción provienen principalmente del proyecto `laravel-lang/lang` que ahora requiere compilar las traducciones con paquetes adicionales.
+
 # Instalación
 
 Podemos instalar este paquete mediante composer:
