@@ -19,7 +19,7 @@ class InstallCommand extends Command
      *
      * @var string
      */
-    protected $description = 'Installs spanish language';
+    protected $description = 'Install spanish language';
 
     /**
      * Execute the console command.
