@@ -45,7 +45,9 @@ O también podemos usar el comando:
 php artisan spanish:install
 ```
 
-Modificamos el parámetro `locale` de la configuración en `config/app.php`:
+**Opcionalmente podemos copiar y pegar el contenido de la carpeta "/resources/lang" de este paquete y pegarlo en la carpeta "/lang" de nuestro proyecto Laravel.*
+
+Finalmente modificamos el parámetro `locale` de la configuración en `config/app.php`:
 
 ```
 'locale' => 'es',
