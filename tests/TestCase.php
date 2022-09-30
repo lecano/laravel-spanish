@@ -2,9 +2,9 @@
 
 namespace Lecano\Spanish\Tests;
 
+use Illuminate\Support\Facades\Artisan;
 use Lecano\Spanish\SpanishServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Illuminate\Support\Facades\Artisan;
 
 class TestCase extends Orchestra
 {

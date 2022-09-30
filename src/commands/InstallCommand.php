@@ -24,15 +24,16 @@ class InstallCommand extends Command
     /**
      * Execute the console command.
      *
-     * @param  \App\Support\DripEmailer  $drip
+     * @param \App\Support\DripEmailer $drip
+     *
      * @return mixed
      */
     public function handle()
     {
         Artisan::call('vendor:publish', [
-            '--provider' => 'Lecano\Spanish\SpanishServiceProvider'
+            '--provider' => 'Lecano\Spanish\SpanishServiceProvider',
         ]);
 
-        $this->info("Spanish language installed!");
+        $this->info('Spanish language installed!');
     }
 }
