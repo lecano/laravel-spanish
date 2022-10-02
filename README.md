@@ -10,6 +10,7 @@ Este paquete agrega a tu proyecto los archivos de traducciones en español para:
 - Breeze
 - Laravel UI
 - Fortify
+- Jetstream
 
 La estructura de archivos es:
 
