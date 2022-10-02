@@ -1,4 +1,6 @@
-[![StyleCI](https://github.styleci.io/repos/541347347/shield?branch=master)](https://github.styleci.io/repos/541347347?branch=master)
+[![StyleCI](https://github.styleci.io/repos/541347347/shield?style=flat&branch=master)](https://github.styleci.io/repos/541347347?branch=master)
+[![Latest Stable Version](http://poser.pugx.org/lecano/laravel-spanish/v)](https://packagist.org/packages/lecano/laravel-spanish)
+[![License](http://poser.pugx.org/lecano/laravel-spanish/license)](https://packagist.org/packages/lecano/laravel-spanish)
 
 # Laravel Idioma Español - Laravel Spanish Language
 
